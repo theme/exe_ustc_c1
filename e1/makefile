@@ -1,7 +1,7 @@
 CC=clang
 CFLAGS=-g
 
-tgts = exe1.1t exe1.2t exe1.3t
+tgts = exe1.1t exe1.2t exe1.3t exepst
 
 $(tgts) : %t: %
 	./$<
